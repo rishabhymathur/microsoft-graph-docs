@@ -39,7 +39,7 @@ Warning:
 
 ## Includes
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](./includes/beta-disclaimer.md)]
 
 ## Divs
 
@@ -71,4 +71,4 @@ Third
 
 ## Code snippets
 
-[!code-csharp[](../api-reference/includes/test.cs)]
+[!code-csharp[](./includes/test.cs)]
