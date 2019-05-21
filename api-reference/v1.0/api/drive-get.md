@@ -50,7 +50,7 @@ GET /me/drive
 
 To access a user's OneDrive or OneDrive for Business, your app must request the **drive** relationship on the User resource.
 
-If a user's OneDrive is not provisioned but the user has a license to use OneDrive, this request will automatically provision the user's drive, when using delegated authentication.
+Note: If a user's OneDrive does not exist, you will **not** be able to provision their OneDrive with either delegated or app permissions using this endpoint. Error code http 404 will be recieved when you try to hit this end point when a user's OneDrive does not exist.
 
 ### HTTP request
 
